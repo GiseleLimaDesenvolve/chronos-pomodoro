@@ -1,6 +1,19 @@
+import './styles/theme.css'
+import './styles/global.css'
+
+import { Container } from './components/Container'
+import { Heading } from './components/Heading'
+
 export function App() {
+  return (
+    <>
+      <Container>
+        <Heading>LOGO</Heading>
+      </Container>
 
-    return <h1>Olá Mundo!</h1>
+      <Container>
+        <Heading>MENU</Heading>
+      </Container>
+    </>
+  )
 }
-
-export default App;
