@@ -3,8 +3,8 @@ import './styles/global.css'
 
 
 import { Container } from './components/Container'
-import { Heading } from './components/Heading'
 import { Logo } from './components/Logo'
+import { Menu } from './components/Menu'
 
 export function App() {
   return (
@@ -14,7 +14,7 @@ export function App() {
       </Container>
 
       <Container>
-        <Heading>MENU</Heading>
+        <Menu />
       </Container>
     </>
   )
